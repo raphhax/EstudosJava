@@ -1,6 +1,4 @@
-package Condicoes;
-import java.util.Scanner;
-
+package EstruturasCondicionais;
 import java.util.Scanner;
 
 public class cadastroNinjas {

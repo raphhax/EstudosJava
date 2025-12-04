@@ -1,4 +1,4 @@
-package Condicoes;
+package EstruturasCondicionais;
 import java.util.Scanner; /* BIBLIOTECA DO SCANNER */
 
 public class scanerJava {

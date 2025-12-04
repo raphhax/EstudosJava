@@ -1,4 +1,4 @@
-package POO;
+package POO_Introdutoria;
 
 public class Galacticos extends Ninja{
 

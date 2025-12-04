@@ -1,4 +1,4 @@
-package Condicoes;
+package EstruturasCondicionais;
 
 public class ifElse {
     public static void main(){
