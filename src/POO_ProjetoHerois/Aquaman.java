@@ -9,6 +9,11 @@ public class Aquaman extends Nadadores{
 
     }
 
+    public Aquaman(String nome, int idade, String cajado, DificuldadePersonagem dificuldadePersonagem){
+        super(nome, idade, dificuldadePersonagem);
+        this.cajado = cajado;
+    }
+
     @Override
     public void objetoPersonagem() {
         System.out.println("Objeto portado pelo " + this.nome + " eh um " + this.cajado);
