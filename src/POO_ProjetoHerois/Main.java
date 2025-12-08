@@ -13,7 +13,7 @@ public class Main {
 
         List<Nadadores> nadadores = new ArrayList<>();
 
-        for(int i = 0; i < 2; i++){
+        for(int i = 0; i < 1; i++){
             System.out.print("Digite o nome do personagem: ");
             nome = scanner.nextLine();
             System.out.print("Digite a idade do personagem: ");
@@ -36,8 +36,9 @@ public class Main {
 
         for(Nadadores n : nadadores){
             n.objetoPersonagem();
+            n.inteligenciaCombate();
+            n.inteligenciaCombate(51);
         }
-
 
 
         //Aquaman aquaman = new Aquaman(nome, idade, objeto);
