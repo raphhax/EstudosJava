@@ -1,6 +1,6 @@
 package POO_ProjetoHerois;
 
-public abstract class Nadadores extends Personagens  implements ExibirDadosAquaticos {
+public abstract class Nadadores extends Personagens implements ExibirDadosAquaticos {
     DificuldadePersonagem dificuldadePersonagem;
 
     public Nadadores() {

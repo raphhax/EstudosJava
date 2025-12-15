@@ -13,6 +13,16 @@ public class Main {
 
         List<Nadadores> nadadores = new ArrayList<>();
 
+        /*
+        Soldado sordado = new Soldado("Max", 30);
+        sordado.arsenal();
+        sordado.municoes();
+        sordado.map.put("Pistola", 10);
+        sordado.municoes();
+        sordado.map.put("Fuzil", 30);
+        sordado.arsenal();
+        */
+
         for(int i = 0; i < 1; i++){
             System.out.print("Digite o nome do personagem: ");
             nome = scanner.nextLine();
