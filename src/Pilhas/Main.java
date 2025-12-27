@@ -1,0 +1,31 @@
+package Pilhas;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
+public class Main {
+    public static void main(String[] args){
+        // static size, some 2 slots of memory
+        String[] namesArray = new String[2];
+        namesArray[0] = "Narutim";
+        namesArray[1] = "Narutao";
+
+        // List names, dynamic sizes(automatic up or down)
+        List<String> namesList = new ArrayList<>();
+        namesList.add("Narutadas");
+        System.out.println(namesList);
+
+        // Stack names
+        Stack<String> namesStack = new Stack<>();
+        namesStack.push("Naruto");
+        namesStack.push("Charutadas");
+        System.out.println("Its start of my stack: " + namesStack);
+        System.out.println("Size of my stack: " + namesStack.size());
+        namesStack.pop();
+        namesStack.peek(); // View the actually top element of my stack
+        System.out.println("Finished Stack: " + namesStack);
+        System.out.println("My final stack size: " + namesStack.size());
+    }
+}
