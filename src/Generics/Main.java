@@ -10,5 +10,6 @@ public class Main {
         bolsaGenerica.addEquipamento(Kunai_Vento);
         bolsaGenerica.addEquipamento(Bolas_Hidrogenio);
         System.out.println(bolsaGenerica);
+
     }
 }
