@@ -15,8 +15,13 @@ public class Main {
         // Stack names
         // pilhas();
 
+        // Decks(versao atualizada da stack)
+        dequeStack();
+
         // QUEUE(FILAS)
-        filas();
+        //filas();
+
+
     }
 
     public static void arraysBasicos(){
@@ -42,6 +47,11 @@ public class Main {
         System.out.println("Finished Stack: " + namesStack);
         System.out.println("My final stack size: " + namesStack.size());
     }
+
+    public static void dequeStack(){
+        // aprender e fazer.
+    }
+
 
     public static void filas(){
         // First IN First OUT
