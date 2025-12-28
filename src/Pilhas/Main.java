@@ -7,13 +7,13 @@ public class Main {
 
     public static void main(String[] args){
         // static size, some 2 slots of memory
-        arraysBasicos();
+        // arraysBasicos();
 
         // List names, dynamic sizes(automatic up or down)
-        lista();
+        // lista();
 
         // Stack names
-        pilhas();
+        // pilhas();
 
         // QUEUE(FILAS)
         filas();
@@ -44,7 +44,25 @@ public class Main {
     }
 
     public static void filas(){
+        // First IN First OUT
         Queue<String> namesQueue = new LinkedList<>();
-        namesQueue.add("");
+        namesQueue.add("Narutadas");
+        namesQueue.add("Sasukezadas");
+        namesQueue.add("Saske");
+        System.out.println("Complete Queue: "+ namesQueue);
+        System.out.println("Come here: " + namesQueue.peek()); // see the first-head queue
+        namesQueue.poll(); // adeus narutadas
+        System.out.println("New queue: "+ namesQueue);
+        namesQueue.add("Sakura");
+        System.out.println("New queue: "+ namesQueue);
+
+        System.out.println("------------------------------");
+
+        while(!namesQueue.isEmpty()){
+            System.out.println("Come here: " + namesQueue.poll()); //poll return a name
+        }
+        if(namesQueue.isEmpty()){
+            System.out.println("No peoples in queue");
+        }
     }
 }
