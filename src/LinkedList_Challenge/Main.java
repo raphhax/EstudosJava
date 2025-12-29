@@ -37,8 +37,12 @@ public class Main {
                     System.out.println("\n");
                     break;
                 case 3:
-
-                    System.out.println("REMOVENDO NINJA...");
+                    System.out.println("\nREMOVENDO NINJA...");
+                    if(removerNinja(listaNinjas)){
+                        System.out.println("\nREMOVIDO COM SUCESSO\n");
+                    }else{
+                        System.out.println("\nFALHA NA REMOCAO\n");
+                    }
                     break;
                 default:
                     System.out.println("\n!!!OPCAO INVALIDA!!!\n");
@@ -86,6 +90,23 @@ public class Main {
             listaNinja.addLast(new Ninja(nome, idade, new Aldeia(aldeia)));
         }else{
             System.out.println("Opcao invalida! ");
+            return false;
+        }
+        return true;
+    }
+
+    public static boolean removerNinja(LinkedList<Ninja> listaNinja){
+        System.out.print("1- Remover o primeiro da lista\n2- Remover o ultimo da lista\n3- Remover um id especifico\n---- OPCAO: ");
+        int opRemov = scanner.nextInt();
+        if(opRemov == 3){
+            System.out.print("Digite o id desejado: ");
+            int id = scanner.nextInt();
+            listaNinja.remove(id);
+        }else if(opRemov == 1){
+            listaNinja.removeFirst();
+        }else if(opRemov == 3){
+            listaNinja.removeLast();
+        }else{
             return false;
         }
         return true;
