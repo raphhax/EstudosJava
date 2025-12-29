@@ -13,8 +13,15 @@ public class Main {
 
      */
 
+    /*
+
+    Serve para colocar a "lista" na ordem ou evitar duplicacao nela.
+
+     */
+
     public static void main(String[] args){
         Set<String> ninjas = new HashSet<>();
+        // ninjas.addAll(); Passo como argumento uma linkedlist para transformar ela em um hashset, dai exclui repetidos.
         ninjas.add("Juju Psita");
         ninjas.add("Naruto");
         ninjas.add("Fofao");
