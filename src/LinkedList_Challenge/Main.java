@@ -45,21 +45,6 @@ public class Main {
                     break;
             }
         }
-
-//        Aldeia aldeiaFogo = new Aldeia("Aldeia do Fogo");
-//        Aldeia aldeiaFolha = new Aldeia("Aldeia da Folha");
-//
-//        Ninja kakashi = new Ninja("Kakashi", 20, aldeiaFogo);
-//        Ninja naruto = new Ninja("Naruto", 21, aldeiaFolha);
-//
-//
-//        listaNinjas.add(kakashi);
-//        listaNinjas.add(naruto);
-
-//        for(Ninja ninjas : listaNinjas){
-//            System.out.println("---------------------------------------------------------");
-//            System.out.println(ninjas);
-//        }
     }
 
     public static int menu(){
